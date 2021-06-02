@@ -1,0 +1,105 @@
+// Google Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+// Reset
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+input,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Gerais
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.btn-large {
+    display: inline-block;
+    background: #b08961;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 25px;
+    transition: all .3s ease;
+    &:hover {
+        transform: translateY(-1px);
+    }
+}
+
+.wathsapp {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
+
+// Main
+
+.main {
+    position: relative;
+    top: 0; bottom: 0;
+    left: 0; right: 0; 
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)), url('../img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+// Header 
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+// Nav
+.nav {
+    &-list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+// Hero
+
+.hero {
+    padding-top: 100px;
+    text-transform: uppercase;
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 300;
+        margin: 8px 0;
+    }
+    .btn-large { 
+        margin-top: 30px;
+    }
+}
+

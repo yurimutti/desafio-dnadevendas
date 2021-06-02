@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+input,
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.btn-large {
+  display: inline-block;
+  background: #b08961;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 25px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn-large:hover {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+.wathsapp {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+}
+
+.main {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.hero {
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.hero h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 8px 0;
+}
+
+.hero .btn-large {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=main.css.map */

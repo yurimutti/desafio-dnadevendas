@@ -1,0 +1,25 @@
+<svg id="phone" xmlns="http://www.w3.org/2000/svg" width="43.408" height="76.603" viewBox="0 0 43.408 76.603">
+  <g id="Grupo_9363" data-name="Grupo 9363" transform="translate(0 7.66)">
+    <path id="Caminho_8318" data-name="Caminho 8318" d="M153.066,51.2H112.211a1.277,1.277,0,0,0-1.277,1.277V106.1a1.277,1.277,0,0,0,1.277,1.277h40.855a1.277,1.277,0,0,0,1.277-1.277V52.477A1.277,1.277,0,0,0,153.066,51.2Zm-1.277,53.622h-38.3V53.753h38.3Z" transform="translate(-110.934 -51.2)" fill="#c8ac78"/>
+  </g>
+  <g id="Grupo_9333" data-name="Grupo 9333" transform="translate(14.044 3.83)">
+    <g id="Grupo_9332" data-name="Grupo 9332" transform="translate(0)">
+      <path id="Caminho_8314" data-name="Caminho 8314" d="M218.845,25.6H206.078a1.277,1.277,0,1,0,0,2.553h12.767a1.277,1.277,0,0,0,0-2.553Z" transform="translate(-204.801 -25.6)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Grupo_9335" data-name="Grupo 9335" transform="translate(34.472 3.83)">
+    <g id="Grupo_9334" data-name="Grupo 9334" transform="translate(0)">
+      <path id="Caminho_8315" data-name="Caminho 8315" d="M343.887,25.6h-1.277a1.277,1.277,0,1,0,0,2.553h1.277a1.277,1.277,0,1,0,0-2.553Z" transform="translate(-341.334 -25.6)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Grupo_9337" data-name="Grupo 9337" transform="translate(16.597 65.113)">
+    <g id="Grupo_9336" data-name="Grupo 9336" transform="translate(0)">
+      <path id="Caminho_8316" data-name="Caminho 8316" d="M228.559,435.2h-3.17a3.527,3.527,0,0,0-3.522,3.522v.617a3.526,3.526,0,0,0,3.521,3.521h3.17a3.526,3.526,0,0,0,3.522-3.521v-.617A3.527,3.527,0,0,0,228.559,435.2Zm.968,4.139a.969.969,0,0,1-.968.968h-3.17a.969.969,0,0,1-.969-.968v-.617a.969.969,0,0,1,.969-.969h3.169a.969.969,0,0,1,.969.969Z" transform="translate(-221.867 -435.2)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Grupo_9339" data-name="Grupo 9339" transform="translate(0)">
+    <g id="Grupo_9338" data-name="Grupo 9338" transform="translate(0)">
+      <path id="Caminho_8317" data-name="Caminho 8317" d="M149.727,0H115.548a4.621,4.621,0,0,0-4.615,4.615V71.988a4.621,4.621,0,0,0,4.615,4.615h34.178a4.621,4.621,0,0,0,4.615-4.614V4.615A4.621,4.621,0,0,0,149.727,0Zm2.061,71.988a2.064,2.064,0,0,1-2.061,2.062H115.548a2.064,2.064,0,0,1-2.062-2.061V4.615a2.064,2.064,0,0,1,2.062-2.062h34.178a2.064,2.064,0,0,1,2.062,2.062V71.988Z" transform="translate(-110.933 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

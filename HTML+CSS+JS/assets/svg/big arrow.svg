@@ -1,0 +1,12 @@
+<svg id="big_arrow" data-name="big arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.643" height="61.567" viewBox="0 0 36.643 61.567">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.212" x2="-0.498" y2="0.818" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c8ac78"/>
+      <stop offset="0.506" stop-color="#bb9a6c"/>
+      <stop offset="1" stop-color="#b08961"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_10" data-name="Grupo 10">
+    <path id="Caminho_42" data-name="Caminho 42" d="M716.889,1393.3l-27.757-27.4a3.451,3.451,0,0,0-4.825,0l-2.044,2.017a3.342,3.342,0,0,0,0,4.763l23.308,23.007-23.334,23.033a3.345,3.345,0,0,0,0,4.764l2.044,2.017a3.451,3.451,0,0,0,4.825,0l27.783-27.423a3.368,3.368,0,0,0,0-4.78Z" transform="translate(-681.241 -1364.919)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
