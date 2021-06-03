@@ -1,8 +1,46 @@
-$('.slider-list').slick({
-    arrows: true,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    nextArrow: '.slick-next',
-    prevArrow: false
+
+// Swiper 
+const swiper = new Swiper('.slider', {
+    breakpoints: {
+        1200: {
+            slidesPerView: 4,
+            allowSlidePrev: false,
+            allowSlideNext: false,
+        },
+        990: {
+            loop: true, 
+            navigation: {
+                nextEl: '.slider-next',
+                prevEl: false,
+            },
+            allowSlidePrev: true,
+            allowSlideNext: true,
+            slidesPerView: 3,
+        },
+        720: {
+            loop: true, 
+            navigation: {
+                nextEl: '.slider-next',
+                prevEl: false,
+            },
+            allowSlidePrev: true,
+            allowSlideNext: true,
+            slidesPerView: 2,
+        },
+        580: {
+            loop: true, 
+            navigation: {
+                nextEl: '.slider-next',
+                prevEl: false,
+            },
+            allowSlidePrev: true,
+            allowSlideNext: true,
+            slidesPerView: 1,
+        },
+    }
 });
+
+//  listen for browser size changes 
+window.onresize=function(){
+    swiper.update();
+}

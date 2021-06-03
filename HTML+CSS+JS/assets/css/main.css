@@ -14,7 +14,7 @@ button {
 
 h1 {
   font-size: 40px;
-  line-height: 48px;
+  line-height: 40px;
 }
 
 h2 {
@@ -63,33 +63,9 @@ ul {
   bottom: 50%;
 }
 
-.slider {
-  background: rgba(13, 22, 51, 0.3);
-  border: 1px solid #808080;
-  padding: 30px 0;
-}
-
-.slider h2 span {
-  font-weight: bold;
-}
-
-.slider-header {
-  float: left;
-  position: relative;
-  margin-right: 120px;
-}
-
-.slider-header .slick-next {
-  position: absolute;
-  z-index: 1000;
-  top: 30px;
-  right: -80px;
-}
-
-.slider-item h4 {
-  margin-top: 15px;
-  text-transform: uppercase;
-  position: relative;
+.wathsapp-icon {
+  width: 70px;
+  height: 72px;
 }
 
 .main {
@@ -106,13 +82,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-}
-
-.main .slider {
-  position: absolute;
-  left: 7.5%;
-  right: 7.5%;
-  bottom: 0;
 }
 
 .header {
@@ -149,5 +118,100 @@ ul {
 
 .hero h2 {
   margin: 8px 0;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(13, 22, 51, 0.3);
+  border: 1px solid #808080;
+  position: absolute;
+  left: 7.5%;
+  right: 7.5%;
+  bottom: 0;
+}
+
+.footer h2 span {
+  font-weight: bold;
+}
+
+.footer-text {
+  padding: 30px 0;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  position: relative;
+  margin-right: 120px;
+}
+
+.footer-text .slider-next {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: 60px;
+  right: -135px;
+}
+
+.slider {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.slider-item {
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  border-right: 1px solid #808080;
+}
+
+.slider-item.swiper-slide-active {
+  border-left: 1px solid #808080;
+}
+
+.slider-item.swiper-slide-active .separator {
+  display: none;
+}
+
+.slider-item .separator {
+  position: absolute;
+  top: 50%;
+  left: -3%;
+}
+
+.slider-item h4 {
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199.98px) {
+  h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .footer-text .slider-next {
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .hero h2 {
+    margin: 4px 0;
+    font-size: 16px;
+  }
+  .wathsapp-icon {
+    width: 48px;
+    height: 50px;
+  }
+  .btn-large {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

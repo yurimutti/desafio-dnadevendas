@@ -1,3 +1,10 @@
+// Variables
+$sm: 575.98px;
+$md: 767.98px;
+$lg: 991.98px;
+$xl: 1199.98px;
+$xxl: 1399.98px;
+
 // Google Fonts
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
@@ -20,7 +27,7 @@ button {
 
 h1 {
     font-size: 40px;
-    line-height: 48px;
+    line-height: 40px;
 }
 h2 {
     font-size: 25px;
@@ -63,50 +70,12 @@ ul {
     position: absolute;
     right: 0;
     bottom: 50%;
+    &-icon {
+        width: 70px;
+        height: 72px;
+    }
 }
 
-.slider {
-    background: rgba($color: #0D1633, $alpha: .3);
-    border: 1px solid #808080;
-    padding: 30px 0;
-    h2 {
-        span {
-            font-weight: bold;
-        }
-    }
-    &-header {
-        float: left;
-        position: relative;
-        margin-right: 120px;
-        .slick-next {
-            position: absolute;
-            z-index: 1000;
-            top: 30px;
-            right: -80px;
-        }
-    }
-    &-list {
-        
-    }
-    &-item {
-        h4 {
-            margin-top: 15px;
-            text-transform: uppercase;
-            position: relative;
-            // &::before {
-            //     content: '';
-            //     position: absolute;
-            //     left: -150px;
-            //     top: 0;
-            //     display: block;
-            //     width: 265px;
-            //     height: 1px;
-            //     background-color: #808080;
-            //     transform: rotate(90deg);
-            // }
-        }
-    }
-}
 
 // Main
 
@@ -121,12 +90,6 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    .slider {
-        position: absolute;
-        left: 7.5%;
-        right: 7.5%;
-        bottom: 0;
-    }
 }
 
 // Header 
@@ -139,6 +102,7 @@ ul {
 }
 
 // Nav
+
 .nav {
     &-list {
         display: flex;
@@ -157,5 +121,102 @@ ul {
     }
     h2 {
         margin: 8px 0;
+    }
+}
+
+// Footer
+
+.footer {
+    display: flex;
+    background: rgba($color: #0D1633, $alpha: .3);
+    border: 1px solid #808080;
+    position: absolute;
+    left: 7.5%;
+    right: 7.5%;
+    bottom: 0;
+    h2 {
+        span {
+            font-weight: bold;
+        }
+    }
+    &-text {
+        padding: 30px 0;
+        flex-basis: 30%;
+        position: relative;
+        margin-right: 120px;
+        .slider-next {
+            display: none;
+            position: absolute;
+            z-index: 1000;
+            top: 60px;
+            right: -135px;
+        }
+    }
+}
+
+.slider {
+    flex: 1;
+    &-item {
+        text-align: center;
+        padding: 30px;
+        position: relative;
+        border-right: 1px solid #808080;
+        &.swiper-slide-active {
+            border-left: 1px solid #808080;
+            .separator {
+                display: none;
+            }
+        }
+        .separator {
+            position: absolute;
+            top: 50%;
+            left: -3%;
+        }
+        h4 {
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+// Responsivo
+
+@media (max-width: $xl) {
+    h1 {
+        font-size: 32px;
+    }
+    .hero {
+        h2 {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    .footer {
+        &-text {
+            .slider-next {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .hero {
+        h2 {
+            margin: 4px 0;
+            font-size: 16px;
+        }
+    }
+    .wathsapp-icon {
+        width: 48px;
+        height: 50px;
+    }
+    .btn-large {
+        font-size: 16px;
     }
 }
