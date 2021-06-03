@@ -41,6 +41,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 ul {
@@ -67,15 +68,25 @@ ul {
 }
 
 .wathsapp {
-    position: absolute;
-    right: 0;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: -200px;
     bottom: 50%;
+    background: #33C807;
+    transition: all .3s ease;
+    &:hover {
+        right: 0;
+    }
     &-icon {
+        vertical-align: middle;
         width: 70px;
         height: 72px;
     }
+    &-text {
+        padding-right: 20px;
+    }
 }
-
 
 // Main
 
@@ -180,7 +191,6 @@ ul {
     }
 }
 
-
 // Responsivo
 
 @media (max-width: $xl) {
@@ -202,7 +212,6 @@ ul {
     }
 }
 
-
 @media (max-width: 1500px) {
     .footer {
         &-text {
@@ -216,6 +225,9 @@ ul {
 }
 
 @media (max-width: $md) {
+    .main {
+        background-image: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)), url('../img/background-mobile.jpg');
+    }
     .hero {
         padding-top: 60px;
         h1 {
@@ -260,6 +272,14 @@ ul {
                     display: none;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    .hero {
+        h2 {
+            max-width: 250px;
         }
     }
 }

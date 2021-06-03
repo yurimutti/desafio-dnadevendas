@@ -29,6 +29,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 ul {
@@ -58,14 +59,32 @@ ul {
 }
 
 .wathsapp {
-  position: absolute;
-  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  right: -200px;
   bottom: 50%;
+  background: #33C807;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.wathsapp:hover {
+  right: 0;
 }
 
 .wathsapp-icon {
+  vertical-align: middle;
   width: 70px;
   height: 72px;
+}
+
+.wathsapp-text {
+  padding-right: 20px;
 }
 
 .main {
@@ -207,6 +226,10 @@ ul {
 }
 
 @media (max-width: 767.98px) {
+  .main {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/background-mobile.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/background-mobile.jpg");
+  }
   .hero {
     padding-top: 60px;
   }
@@ -250,6 +273,12 @@ ul {
   }
   .footer .slider-item .separator {
     display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero h2 {
+    max-width: 250px;
   }
 }
 /*# sourceMappingURL=main.css.map */
