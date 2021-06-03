@@ -39,8 +39,3 @@ const swiper = new Swiper('.slider', {
         },
     }
 });
-
-//  listen for browser size changes 
-window.onresize=function(){
-    swiper.update();
-}
