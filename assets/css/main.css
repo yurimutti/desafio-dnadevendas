@@ -198,7 +198,18 @@ ul {
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 1500px) {
+  .footer-text h2 {
+    font-size: 20px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    padding-top: 60px;
+  }
   .hero h1 {
     font-size: 26px;
     line-height: 32px;
@@ -223,12 +234,15 @@ ul {
     padding: 10px 0;
   }
   .footer-text h2 {
-    text-align: center;
     font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
   }
   .footer-text .slider-next {
-    top: 150px;
-    left: 30px;
+    width: 32px;
+    height: 32px;
+    top: -15%;
+    left: 50%;
   }
   .footer .slider-item {
     border: none;

@@ -1,7 +1,7 @@
 
 // Swiper 
 const swiper = new Swiper('.slider', {
-    loop: true,
+
     breakpoints: {
         1200: {
             slidesPerView: 4,
@@ -28,7 +28,7 @@ const swiper = new Swiper('.slider', {
             allowSlideNext: true,
             slidesPerView: 2,
         },
-        580: {
+        320: {
             loop: true, 
             navigation: {
                 nextEl: '.slider-next',
