@@ -140,6 +140,7 @@ ul {
         }
     }
     &-text {
+        text-transform: uppercase;
         padding: 30px 0;
         flex-basis: 30%;
         position: relative;
@@ -202,11 +203,11 @@ ul {
 }
 
 @media (max-width: $sm) {
-    h1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
     .hero {
+        h1 {
+            font-size: 26px;
+            line-height: 32px;
+        }
         h2 {
             margin: 4px 0;
             font-size: 16px;
@@ -218,5 +219,30 @@ ul {
     }
     .btn-large {
         font-size: 16px;
+    }
+    .footer {
+        display: block;
+        &-text {
+            margin: 0;
+            width: 100%;
+            padding: 10px 0;
+            h2 {
+                text-align: center;
+                font-size: 16px;
+            }
+            .slider-next {
+                top: 150px;
+                left: 30px;
+            }
+        }
+        .slider {
+            &-item {
+                border: none;
+                padding: 15px 30px;
+                .separator {
+                    display: none;
+                }
+            }
+        }
     }
 }

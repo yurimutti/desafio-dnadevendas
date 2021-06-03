@@ -137,6 +137,7 @@ ul {
 }
 
 .footer-text {
+  text-transform: uppercase;
   padding: 30px 0;
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
@@ -198,7 +199,7 @@ ul {
 }
 
 @media (max-width: 575.98px) {
-  h1 {
+  .hero h1 {
     font-size: 26px;
     line-height: 32px;
   }
@@ -212,6 +213,29 @@ ul {
   }
   .btn-large {
     font-size: 16px;
+  }
+  .footer {
+    display: block;
+  }
+  .footer-text {
+    margin: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .footer-text h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .footer-text .slider-next {
+    top: 150px;
+    left: 30px;
+  }
+  .footer .slider-item {
+    border: none;
+    padding: 15px 30px;
+  }
+  .footer .slider-item .separator {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
