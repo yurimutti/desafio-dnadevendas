@@ -209,6 +209,14 @@ ul {
                 display: block;
             }
         }
+        .slider {
+            flex: 1;
+            &-item {
+                .separator {
+                    left: -4%;
+                }
+            }
+        }
     }
 }
 

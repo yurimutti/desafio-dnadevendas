@@ -215,6 +215,14 @@ ul {
   .footer-text .slider-next {
     display: block;
   }
+  .footer .slider {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .footer .slider-item .separator {
+    left: -4%;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -231,7 +239,7 @@ ul {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/background-mobile.jpg");
   }
   .hero {
-    padding-top: 60px;
+    padding-top: 40px;
   }
   .hero h1 {
     font-size: 26px;
